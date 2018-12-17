@@ -1,0 +1,5 @@
+1.使用ojective-c++, 加载c++头文件时，出现提示
+Lexical or Preprocessor Issue
+Semantic Issue
+原因: 我在.h中加载的c++的头文件，因为这个.h文件有其他objective-c的文件引用，这样相当于他们也加载了这个文件。
+解决方法: 在.m中加载头文件。
